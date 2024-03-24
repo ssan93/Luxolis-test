@@ -20,6 +20,7 @@ export const IconInput = ({
       </span>
       <input
         type={type}
+        required
         placeholder={label.toUpperCase()}
         value={state}
         onChange={(e) => setState(e.target.value)}
